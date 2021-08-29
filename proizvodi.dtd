@@ -1,0 +1,13 @@
+<!ELEMENT Proizvodi (Proizvod)+>
+<!ELEMENT Proizvod (Naziv,Kategorija,Cena,Tekst,Oznake,Akcije)>
+<!ELEMENT Naziv (#PCDATA)>
+<!ELEMENT Kategorija (#PCDATA)>
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT Tekst (#PCDATA)>
+<!ELEMENT Oznake (Oznaka)+>
+<!ELEMENT Oznaka (#PCDATA)>
+<!ELEMENT Akcije (Akcija)+>
+<!ELEMENT Akcija (#PCDATA)>
+<!ATTLIST Cena valuta CDATA #REQUIRED>
+<!ATTLIST Akcija cena CDATA #REQUIRED>
+<!ATTLIST Akcija datum_isteka CDATA #REQUIRED>
