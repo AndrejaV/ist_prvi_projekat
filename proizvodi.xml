@@ -1,70 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE proizvodi SYSTEM "proizvodi.dtd">
 
-    <proizvodi>
-        <proizvod>
-            <kategorija>Laptop</kategorija>
-            <cena value="RSD">
-                <iznos>245.990</iznos>
-            </cena>
-            <oglas>
-                <text>Asus ROG Zephyrus M GU502GV-AZ064T Win10 15.6", i7-9750H/16G/512 SSD/RTX 2060 6G</text>
-                <tag>Asus</tag>
-                <tag>Laptop</tag>
-                <tag>Tehnika</tag>
-            </oglas>
-            <akcija price="221.00" date="2021-05-12"></akcija>
-        </proizvod>
-        <proizvod>
-            <kategorija>Mobilni telefon</kategorija>
-            <cena value="RSD">
-                <iznos>121.322</iznos>
-            </cena>
-            <oglas>
-                <text>Apple iPhone 12 mini, 64 GB - Blue</text>
-                <tag>Apple</tag>
-                <tag>Mobilni telefon</tag>
-                <tag>Apple A14</tag>
-            </oglas>
-            <akcija price="96.900" date="2021-04-28"></akcija>
-        </proizvod>
-        <proizvod>
-            <kategorija>Mobilni telefon</kategorija>
-            <cena value="RSD">
-                <iznos>116.656</iznos>
-            </cena>
-            <oglas>
-                <text>Samsung Galaxy S21 / GB/128 GB - Roze</text>
-                <tag>Samsung</tag>
-                <tag>Exynos</tag>
-                <tag>Mobilni telefon</tag>
-            </oglas>
-            <akcija price="104.990" date="2021-05-2"></akcija>
-        </proizvod>
-        <proizvod>
-            <kategorija>Monitor</kategorija>
-            <cena value="RSD">
-                <iznos>28.878</iznos>
-            </cena>
-            <oglas>
-                <text>Monitor 29" LG 29WL500-B IPS, 2560x1080</text>
-                <tag>LG</tag>
-                <tag>UltraWide</tag>
-                <tag>Full HD</tag>
-                <tag>29"</tag>
-            </oglas>
-            <akcija price="25.990" date="2021-05-2"></akcija>
-        </proizvod>
-        <proizvod>
-            <kategorija>Monitor</kategorija>
-            <cena value="RSD">
-                <iznos>26.100</iznos>
-            </cena>
-            <oglas>
-                <text>Monitor 24" Samsung LC24RG50FQUXEN, 1920 x 1080</text>
-                <tag>Samsung</tag>
-                <tag>24"</tag>
-            </oglas>
-            <akcija price="23.490" date="2021-04-25"></akcija>
-        </proizvod>
-    </proizvodi>
+    <Proizvodi>
+	<Proizvod >
+		<Naziv>Samsung</Naziv>
+		<Kategorija >monitori</Kategorija>
+		<Cena valuta="din">15600</Cena>
+		<Tekst>Neki tekst</Tekst>
+		<Oznake>
+			<Oznaka>oznaka1</Oznaka>
+		</Oznake>
+		<Akcije>
+			<Akcija cena="14820 " datum_isteka="24.04.2021 ">5%</Akcija>
+			<Akcija cena="14820 " datum_isteka="12.01.2021 ">5%</Akcija>
+		</Akcije>
+	</Proizvod>
+	<Proizvod >
+		<Naziv>HP</Naziv>
+		<Kategorija >monitori</Kategorija>
+		<Cena valuta="din">13500</Cena>
+		<Tekst>Neki tekst</Tekst>
+		<Oznake>
+			<Oznaka>oznaka1</Oznaka>
+			<Oznaka>oznaka2</Oznaka>
+		</Oznake>
+		<Akcije>
+			<Akcija cena="12150 " datum_isteka="24.04.2021 ">10%</Akcija>
+		</Akcije>
+	</Proizvod>
+</Proizvodi>
