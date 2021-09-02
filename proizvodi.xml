@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE proizvodi SYSTEM "proizvodi.dtd">
+
+    <Proizvodi>
+	<Proizvod >
+		<Naziv>Samsung</Naziv>
+		<Kategorija >monitori</Kategorija>
+		<Cena valuta="din">15600</Cena>
+		<Tekst>Neki tekst</Tekst>
+		<Oznake>
+			<Oznaka>oznaka1</Oznaka>
+		</Oznake>
+		<Akcije>
+			<Akcija cena="14820 " datum_isteka="24.04.2021 ">5%</Akcija>
+			<Akcija cena="14820 " datum_isteka="12.01.2021 ">5%</Akcija>
+		</Akcije>
+	</Proizvod>
+	<Proizvod >
+		<Naziv>HP</Naziv>
+		<Kategorija >monitori</Kategorija>
+		<Cena valuta="din">13500</Cena>
+		<Tekst>Neki tekst</Tekst>
+		<Oznake>
+			<Oznaka>oznaka1</Oznaka>
+			<Oznaka>oznaka2</Oznaka>
+		</Oznake>
+		<Akcije>
+			<Akcija cena="12150 " datum_isteka="24.04.2021 ">10%</Akcija>
+		</Akcije>
+	</Proizvod>
+</Proizvodi>
