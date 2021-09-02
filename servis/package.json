@@ -1,0 +1,15 @@
+{
+  "name": "servis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proizvodi_servis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "proizvodi_modul": "file:../proizvodi_modul"
+  }
+}
